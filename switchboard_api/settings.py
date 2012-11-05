@@ -117,6 +117,9 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
     'django.contrib.admin',
     'django.contrib.admindocs',
+    'switchboard_api.facility',
+    'switchboard_api.practitioner',
+    'switchboard_api.api',
 )
 
 # A sample logging configuration. The only tangible logging

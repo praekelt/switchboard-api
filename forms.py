@@ -1,7 +1,7 @@
 from django import forms
 from doctor.models import country
 # Create your forms here.
-    
+# created by budoya  
 class ContactForm(forms.Form):
     first_name = forms.CharField(max_length=40)
     middle_name = forms.CharField(max_length=30)
@@ -12,4 +12,4 @@ class ContactForm(forms.Form):
     postal_address = forms.CharField(max_length=100)
     vodacom_phone = forms.IntegerField()
     other_phone = forms.IntegerField()
-    email_address = forms.EmailField()
+    email_address = forms.EmailField()b

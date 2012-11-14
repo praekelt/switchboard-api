@@ -1,7 +1,9 @@
 from django import forms
 from doctor.models import country
 # Create your forms here.
-# created by budoya  
+# created by budoya 
+# created by budoya
+# created by budoya 
 class ContactForm(forms.Form):
     first_name = forms.CharField(max_length=40)
     middle_name = forms.CharField(max_length=30)

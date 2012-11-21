@@ -1,0 +1,4 @@
+# requirements for production
+Django==1.4.2
+gunicorn==0.15.0
+South==0.7.3

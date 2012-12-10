@@ -1,6 +1,6 @@
 from django.db import models
 from switchboard_api.contact.models import Contact
-# application of a doctor 
+# application 
 
 
 class Application(models.Model):
